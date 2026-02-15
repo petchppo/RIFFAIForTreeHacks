@@ -27,7 +27,7 @@ async function generateTile(
   maxVal?: number
 ): Promise<Buffer> {
   try {
-    const tiff = await fromArrayBuffer(tiffBuffer.buffer)
+    const tiff = await fromArrayBuffer(tiffBuffer.buffer.slice(0))
     const image = await tiff.getImage()
     const rasters = await image.readRasters()
     const data = rasters[0] as Float32Array
