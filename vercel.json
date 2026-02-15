@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["sfo1"],
+  "env": {
+    "OPENAI_API_KEY": "@openai-api-key",
+    "MAPBOX_TOKEN": "@mapbox-token"
+  }
+}

@@ -1,0 +1,6 @@
+Created treehacks2026-yc GCP project
+Activated: Cloud run admin api, Cloud deploy api, Compute engine api
+Created GCS: gs://riffai-treehacks2026-central-resource
+Created Cloud run services : hello-00001-6lh-
+Enabled Cloud work stations 
+Change iam-allowedPolicyMemberDomains? constraint to Allowed all
