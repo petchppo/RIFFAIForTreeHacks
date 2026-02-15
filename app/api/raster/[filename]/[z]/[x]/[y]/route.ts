@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 import path from 'path'
 import fs from 'fs'
-import { generateTile } from '../../../../../lib/raster-utils'
+import { generateTile } from '../../../../../../lib/raster-utils'
 
 export async function GET(
   request: Request,
