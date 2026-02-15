@@ -8,10 +8,5 @@
     "app/api/raster/[filename]/[z]/[x]/[y]/route.ts": {
       "maxDuration": 30
     }
-  },
-  "env": {
-    "OPENAI_API_KEY": "@openai-api-key",
-    "MAPBOX_TOKEN": "@mapbox-token",
-    "NEXT_PUBLIC_MAPBOX_TOKEN": "@mapbox-token"
   }
 }
